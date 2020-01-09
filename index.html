@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Pair Programming | Flexbox</title>
+    <!-- Css -->
+    <link rel="stylesheet" href="assets/stylesheet/style.css" />
+    <!-- Font Family -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <nav class="header__nav flex">
+          <a class="logo" href="#">
+            <h1>Prism</h1>
+          </a>
+          <ul class="flex header__menu">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Generic</a>
+            </li>
+            <li>
+              <a href="#">Elements</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <!-- Hero -->
+      <section class="hero">
+        <div class="container flex">
+          <div class="col col-left">
+            <h2 class="hero__heading">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              <span>Quasi illum.</span>
+            </h2>
+          </div>
+          <div class="col col-right">
+            <p class="hero__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Cupiditate fugit laborum a officiis nisi modi laboriosam provident
+              consectetur.
+            </p>
+            <button class="btn">Get started</button>
+          </div>
+        </div>
+      </section>
+      <!-- About -->
+      <section class="padding">
+        <div class="container flex">
+          <article class="col col-left">
+            <h3 class="heading">Magna feugiat adipiscing</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+              facilis sit perspiciatis, temporibus similique eligendi recusandae
+              distinctio corporis cumque, explicabo, aliquam cupiditate
+              provident consequatur perferendis voluptatem excepturi ex.
+              Dolores, omnis?
+            </p>
+            <button class="btn">
+              Learn more
+            </button>
+          </article>
+          <div class="col col-right">
+            <ul class="about-menu">
+              <li>Lorem, ipsum dolor</li>
+              <li>Amet consectetur adipisicing elit.</li>
+              <li>Praesentium impedit.</li>
+              <li>Recusandae consectetur.</li>
+              <li>iusto magni dolorem.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- Article -->
+      <section class="article padding">
+        <div class="container">
+          <article class="flex article__wrapper">
+            <div class="article__img">
+              <img src="assets/images/pic01.jpg" alt="Pic 01" />
+            </div>
+            <div class="article__content">
+              <h4>Ipsum Pherar whatever</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+                sint magni eum totam error nesciunt.
+              </p>
+              <button class="btn">Details</button>
+            </div>
+          </article>
+          <article class="flex article__wrapper">
+            <div class="article__img">
+              <img src="assets/images/pic02.jpg" alt="Pic 02" />
+            </div>
+            <div class="article__content">
+              <h4>Ipsum Pherar whatever</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+                sint magni eum totam error nesciunt.
+              </p>
+              <button class="btn">Details</button>
+            </div>
+          </article>
+          <article class="flex article__wrapper">
+            <div class="article__img">
+              <img src="assets/images/pic03.jpg" alt="Pic 03" />
+            </div>
+            <div class="article__content">
+              <h4>Ipsum Pherar whatever</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+                sint magni eum totam error nesciunt.
+              </p>
+              <button class="btn">Details</button>
+            </div>
+          </article>
+          <div class="text-center">
+            <button class="btn">Ipsum Magna tempus</button>
+          </div>
+        </div>
+      </section>
+      <!-- Contact -->
+      <section class="contact padding">
+        <div class="container flex">
+          <div class="col col-left">
+            <h3 class="heading">Orci Malesuada</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus
+              recusandae nihil corrupti cumque.
+            </p>
+            <form class="form" action="">
+              <div class="flex">
+                <input
+                  class="form-control contact__input"
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="Name"
+                />
+                <input
+                  class="form-control contact__input"
+                  type="email"
+                  name=""
+                  id=""
+                  placeholder="Email"
+                />
+              </div>
+
+              <textarea
+                class="form-control"
+                name=""
+                id=""
+                rows="5"
+                placeholder="Message"
+              ></textarea>
+              <input type="submit" value="Send Message" class="btn" />
+            </form>
+          </div>
+          <div class="col col-right">
+            <ul class="contact__menu">
+              <li>
+                <i class="fab fa-twitter"></i>
+                <a href="#">twitter.com/untitled</a>
+              </li>
+              <li>
+                <i class="fab fa-facebook-f"></i>
+                <a href="#">twitter.com/untitled</a>
+              </li>
+              <li>
+                <i class="fab fa-instagram"></i>
+                <a href="#">twitter.com/untitled</a>
+              </li>
+              <li>
+                <i class="fas fa-envelope"></i>
+                <a href="#">twitter.com/untitled</a>
+              </li>
+              <li>
+                <i class="fas fa-home"></i>
+                <address>
+                  AltCampus, Thehr, Khaniara khas, <br />
+                  Kangra, Himachal Pradesh
+                </address>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer padding">
+      <div class="container text-center">
+        <small>&copy; Untitled, AltCampus Pvt. ltd.</small>
+      </div>
+    </footer>
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/8bc5acd820.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
