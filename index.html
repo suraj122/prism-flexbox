@@ -3,195 +3,199 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Pair Programming | Flexbox</title>
-    <!-- Css -->
-    <link rel="stylesheet" href="assets/stylesheet/style.css" />
+    <title>Prism | Flexbox Project</title>
     <!-- Font Family -->
     <link
-      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap"
       rel="stylesheet"
     />
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/stylesheet/style.css" />
   </head>
   <body>
     <!-- Header -->
     <header class="header">
-      <div class="container">
-        <nav class="header__nav flex">
-          <a class="logo" href="#">
-            <h1>Prism</h1>
-          </a>
-          <ul class="flex header__menu">
-            <li>
-              <a href="#">Home</a>
-            </li>
-            <li>
-              <a href="#">About</a>
-            </li>
-            <li>
-              <a href="#">Generic</a>
-            </li>
-            <li>
-              <a href="#">Elements</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+      <nav class="flex container">
+        <a class="logo" href="#">
+          Prism
+        </a>
+        <div class="nav-menu">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Generic</a>
+          <a href="#">Elements</a>
+        </div>
+      </nav>
     </header>
     <main>
       <!-- Hero -->
       <section class="hero">
         <div class="container flex">
           <div class="col col-left">
-            <h2 class="hero__heading">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              <span>Quasi illum.</span>
-            </h2>
+            <h1 class="hero-heading">
+              Welcome to <stron>Prism</stron>, a free responsive template by
+              <strong class="brand">templated</strong>
+            </h1>
           </div>
           <div class="col col-right">
-            <p class="hero__text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Cupiditate fugit laborum a officiis nisi modi laboriosam provident
-              consectetur.
+            <p class="hero-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+              eaque corporis recusandae, consectetur accusamus ut, sed, rem eum
+              a maiores itaque asperiores similique praesentium quibusdam quis
+              quae ipsa dolorum esse?
             </p>
-            <button class="btn">Get started</button>
+            <a href="#"><button class="btn">Get started</button></a>
           </div>
         </div>
       </section>
-      <!-- About -->
-      <section class="padding">
+      <!-- Primary -->
+      <section class="padding primary">
         <div class="container flex">
           <article class="col col-left">
-            <h3 class="heading">Magna feugiat adipiscing</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-              facilis sit perspiciatis, temporibus similique eligendi recusandae
-              distinctio corporis cumque, explicabo, aliquam cupiditate
-              provident consequatur perferendis voluptatem excepturi ex.
-              Dolores, omnis?
+            <h2 class="heading">
+              Lorem, ipsum dolor sit amet.
+            </h2>
+            <p class="text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+              labore debitis voluptatibus ducimus corrupti, sequi exercitationem
+              nam blanditiis nostrum in molestiae magnam temporibus quia libero
+              impedit facere voluptates, quam natus.
             </p>
-            <button class="btn">
-              Learn more
-            </button>
+            <a href="#"><button class="btn">learn more</button></a>
           </article>
           <div class="col col-right">
-            <ul class="about-menu">
-              <li>Lorem, ipsum dolor</li>
-              <li>Amet consectetur adipisicing elit.</li>
-              <li>Praesentium impedit.</li>
-              <li>Recusandae consectetur.</li>
-              <li>iusto magni dolorem.</li>
+            <ul class="primary-menu">
+              <li>
+                Lorem ipsum dolor sit.
+              </li>
+              <li>
+                Amet consectetur adipisicing elit.
+              </li>
+              <li>
+                Error iure consectetur, harum,
+              </li>
+              <li>
+                Autem, quibusdam corrupti.
+              </li>
+              <li>
+                Quis nobis ut possimus ipsum.
+              </li>
             </ul>
           </div>
         </div>
       </section>
-      <!-- Article -->
-      <section class="article padding">
+
+      <!-- Articles -->
+      <section class="padding blog">
         <div class="container">
-          <article class="flex article__wrapper">
-            <div class="article__img">
+          <article class="flex article-wrapper">
+            <div class="article-img">
               <img src="assets/images/pic01.jpg" alt="Pic 01" />
             </div>
-            <div class="article__content">
-              <h4>Ipsum Pherar whatever</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
-                sint magni eum totam error nesciunt.
+            <div class="article-content">
+              <h3 class="article-heading">Lorem, ipsum dolor sit amet</h3>
+              <p class="text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum
+                iure sit quasi qui! Perspiciatis esse commodi laborum nesciunt
+                aliquam aperiam, quis nobis dolore.
               </p>
-              <button class="btn">Details</button>
+              <a href="#">
+                <button class="btn">Details</button>
+              </a>
             </div>
           </article>
-          <article class="flex article__wrapper">
-            <div class="article__img">
-              <img src="assets/images/pic02.jpg" alt="Pic 02" />
+          <article class="flex article-wrapper">
+            <div class="article-img">
+              <img src="assets/images/pic01.jpg" alt="Pic 01" />
             </div>
-            <div class="article__content">
-              <h4>Ipsum Pherar whatever</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
-                sint magni eum totam error nesciunt.
+            <div class="article-content">
+              <h3 class="article-heading">Lorem, ipsum dolor sit amet</h3>
+              <p class="text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum
+                iure sit quasi qui! Perspiciatis esse commodi laborum nesciunt
+                aliquam aperiam, quis nobis dolore.
               </p>
-              <button class="btn">Details</button>
+              <a href="#">
+                <button class="btn">Details</button>
+              </a>
             </div>
           </article>
-          <article class="flex article__wrapper">
-            <div class="article__img">
-              <img src="assets/images/pic03.jpg" alt="Pic 03" />
+          <article class="flex article-wrapper">
+            <div class="article-img">
+              <img src="assets/images/pic01.jpg" alt="Pic 01" />
             </div>
-            <div class="article__content">
-              <h4>Ipsum Pherar whatever</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
-                sint magni eum totam error nesciunt.
+            <div class="article-content">
+              <h3 class="article-heading">Lorem, ipsum dolor sit amet</h3>
+              <p class="text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum
+                iure sit quasi qui! Perspiciatis esse commodi laborum nesciunt
+                aliquam aperiam, quis nobis dolore.
               </p>
-              <button class="btn">Details</button>
+              <a href="#">
+                <button class="btn">Details</button>
+              </a>
             </div>
           </article>
           <div class="text-center">
-            <button class="btn">Ipsum Magna tempus</button>
+            <a href="#">
+              <button class="btn">quis nobis dolore.</button>
+            </a>
           </div>
         </div>
       </section>
       <!-- Contact -->
-      <section class="contact padding">
+      <section class="padding contact">
         <div class="container flex">
           <div class="col col-left">
-            <h3 class="heading">Orci Malesuada</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus
-              recusandae nihil corrupti cumque.
+            <h2 class="heading">Orci Magna</h2>
+            <p class="text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatibus, minima?
             </p>
             <form class="form" action="">
               <div class="flex">
-                <input
-                  class="form-control contact__input"
-                  type="text"
-                  name=""
-                  id=""
-                  placeholder="Name"
-                />
-                <input
-                  class="form-control contact__input"
-                  type="email"
-                  name=""
-                  id=""
-                  placeholder="Email"
-                />
+                <input class="form-control" type="text" placeholder="Name" />
+                <input class="form-control" type="email" placeholder="Email" />
               </div>
-
               <textarea
                 class="form-control"
-                name=""
-                id=""
-                rows="5"
+                rows="10"
                 placeholder="Message"
               ></textarea>
               <input type="submit" value="Send Message" class="btn" />
             </form>
           </div>
           <div class="col col-right">
-            <ul class="contact__menu">
+            <ul class="contact-menu">
               <li>
-                <i class="fab fa-twitter"></i>
-                <a href="#">twitter.com/untitled</a>
+                <span><i class="fab fa-twitter"></i></span>
+                <a href="#">
+                  twitter.com/untitled
+                </a>
               </li>
               <li>
-                <i class="fab fa-facebook-f"></i>
-                <a href="#">twitter.com/untitled</a>
+                <span><i class="fab fa-facebook-f"></i></span>
+                <a href="#">
+                  facebook.com/untitled
+                </a>
               </li>
               <li>
-                <i class="fab fa-instagram"></i>
-                <a href="#">twitter.com/untitled</a>
+                <span><i class="fab fa-instagram"></i></span>
+                <a href="#">
+                  twitter.com/untitled
+                </a>
               </li>
               <li>
-                <i class="fas fa-envelope"></i>
-                <a href="#">twitter.com/untitled</a>
+                <span><i class="fas fa-envelope"></i></span>
+                <a href="#">
+                  twitter.com/untitled
+                </a>
               </li>
               <li>
-                <i class="fas fa-home"></i>
+                <span><i class="fas fa-home"></i></span>
                 <address>
-                  AltCampus, Thehr, Khaniara khas, <br />
-                  Kangra, Himachal Pradesh
+                  AltCampus, Thehr, Khaniyara Khas, <br />
+                  Dhramshala, Kangra, 176218
                 </address>
               </li>
             </ul>
@@ -199,9 +203,10 @@
         </div>
       </section>
     </main>
+    <!-- footer -->
     <footer class="footer padding">
-      <div class="container text-center">
-        <small>&copy; Untitled, AltCampus Pvt. ltd.</small>
+      <div class="container">
+        <small>&copy; Untitled, AltCampus 2020</small>
       </div>
     </footer>
     <!-- Font Awesome -->
